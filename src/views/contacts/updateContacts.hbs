@@ -1,0 +1,9 @@
+<form action="/contacts/update/{{data._id}}?_method=put" method="post">
+
+    <input type="hidden" name="_method" value="put">
+    <input type="text" name="name" placeholder="name" value="{{data.name}}">
+    <input type="text" name="contact" placeholder="contact" value="{{data.contact}}">
+    <input type="email" name="email" placeholder="email" value="{{data.email}}">
+    <button type="submit">Update</button>       
+
+</form>

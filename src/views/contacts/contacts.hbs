@@ -1,0 +1,22 @@
+<table>
+
+  {{#each data}}
+    <tr>
+      <td>{{name}} </td>
+      <td>{{contact}}</td>
+      <td>{{email}}</td>
+      <td>{{date}} <a href="/contacts/update/{{_id}}">UPDATE</a></td>
+      <td>
+        <form action="/contacts/delete/{{_id}}?_method=delete" method="post">
+          <input type="hidden" name="_method" value="delete" />
+          <button type="submit">delete</button>
+        </form>
+      </td>
+    </tr>
+
+  {{else}}
+    <p>no hay datos disponibles</p>
+    <a href="/contacts/save">ingresar contactos nuevos</a>
+
+  {{/each}}
+</table>

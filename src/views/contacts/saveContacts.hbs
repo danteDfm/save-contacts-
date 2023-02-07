@@ -1,0 +1,15 @@
+{{#if err}}
+
+    <h1>debe rellenar todos  los campos</h1>
+
+{{/if}}
+
+<h2>Guardar contactos</h2>
+<div class="form1">
+    <form action="/contacts/save" method="post">
+      <div class="i1"> <input class="ii1" type="text" name="name" placeholder="name"></div>
+       <div class="i2"> <input type="text" name="contact" placeholder="contacts"></div>
+       <div class="i3"> <input type="email" name="email" placeholder="email"></div>
+       <div class="bt1"><button type="submit">Save</button></div> 
+    </form>
+</div>

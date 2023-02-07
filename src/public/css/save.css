@@ -1,0 +1,72 @@
+.form1{
+
+    position: relative;
+    left: 600px;
+    top: 100px;
+    width:300px;
+    height: 350px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+}
+
+.i1, .i2, .i3 {
+
+    position: absolute;
+    left: 50px;
+    -webkit-box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+-moz-box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+}
+
+input{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+
+    
+  
+}
+.i1{
+
+   top: 60px;
+   overflow: hidden;
+  
+}
+.i2{
+
+    top: 120px;
+    
+}
+.i3{
+
+    top: 180px;
+}
+
+.bt1{
+
+    position: absolute;
+    left: 105px;
+    top: 260px;
+    -webkit-box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+-moz-box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+box-shadow: 11px 16px 76px 17px rgba(116,116,138,1);
+    
+
+}
+button{
+
+    width: 100px;
+    height: 30px;
+    background: rgb(238,174,217);
+    background: radial-gradient(circle, rgba(238,174,217,0.9781046207545518) 0%, rgba(219,148,233,0.9893091025472689) 56%);
+    border-radius: 5px;
+    -webkit-box-shadow: 37px 37px 189px 17px rgba(116,116,138,1);
+    -moz-box-shadow: 37px 37px 189px 17px rgba(116,116,138,1);
+    box-shadow: 37px 37px 189px 17px rgba(116,116,138,1);
+    
+  
+}
+
